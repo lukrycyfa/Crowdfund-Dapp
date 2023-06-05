@@ -1,0 +1,29 @@
+[
+    {
+        "Background": {
+            "Gradient": 3,
+            "Mixture": 2,
+            "Stacked Wall": 1,
+            "Purple Mix": 2,
+            "Leaves": 1,
+            "Fade Away": 2,
+            "Pattern": 2
+        }
+    },
+    {
+        "Foreground": {
+            "Award-Seven": 3,
+            "Award-One": 2,
+            "Award-Three": 3,
+            "Award-Two": 1,
+            "Award-Four": 2,
+            "Award-Six": 1,
+            "Award-Nine": 1
+        }
+    },
+    {
+        "Fundtext": {
+            "Fund Raiser": 13
+        }
+    }
+]

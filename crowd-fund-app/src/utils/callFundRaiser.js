@@ -9,7 +9,6 @@ export const importAllImages = (path) =>{
      path.keys().forEach((item) => { images[item.replace('./', '')] = path(item);
      imgnames.push(item.replace('./', '')); 
     });
-    console.log(images, imgnames)
     return {images, imgnames}
 }
 

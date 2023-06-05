@@ -144,7 +144,7 @@ const OnlyOwner = ({fundRaiser }) =>{
                     <Modal.Header>
                         <Text id="modal-title" size={18}>
                             <Text b size={18}>
-                            Transfers of funds Above 75% of donations is not allowed
+                            Transfers of funds Above donations is not allowed
                             </Text>
                         </Text>
                     </Modal.Header>

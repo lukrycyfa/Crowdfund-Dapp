@@ -216,52 +216,6 @@ export const WithdrawDonation =  async (performActions, amount, adr) =>{
 } 
 
 
-// depricated
-// export const NewPost =  async (performActions, Post) =>{
-//     try{
-//         await performActions( async (k) =>{
-//             const slug = `${Post.slice(0, 16)}.....`;
-//             const fundRaiser = await new k.connection.web3.eth.Contract(FundRaiser.abi, Address.address);
-//             const _post = await fundRaiser.methods.NewPost(Post, slug).send({from:k.connection.defaultAccount});                
-//             console.log(_post);
-//         })
-//     } catch (error){
-//         console.log(error);
-//     }
-// }
-
-
-// depricated
-// export const DeletePost =  async (performActions, postId) =>{
-//     try{
-//         await performActions( async (k) =>{
-//             const fundRaiser = await new k.connection.web3.eth.Contract(FundRaiser.abi, Address.address);
-//             const _dpost = await fundRaiser.methods.DeletePost(postId).send({from:k.connection.defaultAccount});                 
-//             console.log(_dpost)
-//         })
-        
-//     } catch (error){
-//         console.log(error);
-//     }
-
-// } 
-
-
-// Depricated
-// export const Like$Unlike =  async ( performActions, PostID) =>{
-//     try{
-//         await performActions( async (k) =>{
-//             const fundRaiser = await new k.connection.web3.eth.Contract(FundRaiser.abi, Address.address);
-//             const _verify = await fundRaiser.methods.LikeandUnlikePost(PostID).send({from:k.connection.defaultAccount});
-//             console.log(_verify);
-//         })
-        
-//     } catch (error){
-//         console.log(error);
-//     }
-
-// }
-
 // Called to get funds donations
 export const GetDonations =  async (fundRaiser, address) =>{
     try{

@@ -75,7 +75,6 @@ const FundWrapper = ({fundRaiser, getBalance}) =>{
       try{
         setLoading(true);
         const _eligible = await MintEligibility(address, fundRaiser)
-        console.log(_eligible)
         setMinteligibility(_eligible);
       }catch (error){
         console.log(error)

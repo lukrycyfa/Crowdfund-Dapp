@@ -58,7 +58,7 @@ brownie test tests/test_OnGanache.py
 brownie networks add Alfajores alfajores host=https://alfajores-forno.celo-testnet.org chainid=44787 explorer=https://alfajores-blockscout.celo-testnet.org
 ```
 
-### Add Your Metamask Private Key To The .env file in the root
+### Add your Metamask Private Key to the .env file in the root
 - create a .env file in the root directory
 - create three metamask accounts, export the private keys and update this keys 
 
@@ -67,7 +67,7 @@ export PRIVATE_KEY_OWNER="Your Metamask Private Key One"
 export PRIVATE_KEY_ACC1="Your Metamask Private Key Two"
 export PRIVATE_KEY_ACC2="Your Metamask Private Key Three"
 ```
-### Compile, Deploy And Test The Contract On Alfajores
+### Compile, Deploy and Test the Contract on Alfajores
 
 ```bash
 brownie compile
@@ -90,7 +90,7 @@ export SECRET_API_KEY=your api secret key
 ```
 
 ### Cd Into The ./crowd-fund-app Directory
-- Create a .env file in the directory if it does not exist yet and populate these keys REACT_APP_API_KEY for your api key and REACT_APP_SECRET_API_KEY for your secret key.
+- Create a .env file in the directory if it does not exist yet and update these keys REACT_APP_API_KEY for your api key and REACT_APP_SECRET_API_KEY for your secret key.
 
 ```js
 REACT_APP_API_KEY = your api key;

@@ -1,6 +1,6 @@
 # Getting Started With CrowdFund-Dapp
 
-- This project was created as a Dapp to a CrowdFund Tutorial. A finished work to get an idea on what the tutorial covered. [Crowdfund-Tutorial](http://place-link-here).
+- This project was created as a Dapp to a CrowdFund Tutorial. Built with React.js to get an idea on what the tutorial covered using a Front-End. [Crowdfund-Tutorial](https://github.com/lukrycyfa/crowdfund-tutorial-main).
 
 ## Requirements
 
@@ -25,19 +25,19 @@ git clone https://github.com/lukrycyfa/Crowdfund-Dapp.git
 ```bash
 pip install -r requirements.txt
 ```
-### Install Contract Dependencies
+### Install the Contract Dependencies
 
 ```bash
 brownie pm install OpenZeppelin/openzeppelin-contracts@4.8.2
 ```
-## Testing Contract On Ganache Local Network
+## Testing the Contract on Ganache Local Network
 
-### Start Ganache-cli On A Separate Terminal
+### Start Ganache-cli on a Separate Terminal
 
 ```bash
 ganache-cli
 ```
-### Compile, Deploy And Test The Contract On Ganache.
+### Compile, Deploy and Test the Contract on Ganache.
 
 ```bash
 brownie compile
@@ -50,9 +50,9 @@ brownie test tests/test_OnGanache.py
 ```
 
 
-## Testing The Contract On Celo Alfajores Network
+## Testing The Contract on Celo Alfajores Testnet
 
-### Add The Alfajores Network To Brownie
+### Add the Alfajores Testnet To Brownie
 
 ```bash
 brownie networks add Alfajores alfajores host=https://alfajores-forno.celo-testnet.org chainid=44787 explorer=https://alfajores-blockscout.celo-testnet.org
@@ -90,7 +90,7 @@ export SECRET_API_KEY=your api secret key
 ```
 
 ### Cd Into The ./crowd-fund-app Directory
-- Create a .env file in the dir if it does not exist yet and populate these keys REACT_APP_API_KEY for your api key and REACT_APP_SECRET_API_KEY for your secret key.
+- Create a .env file in the directory if it does not exist yet and populate these keys REACT_APP_API_KEY for your api key and REACT_APP_SECRET_API_KEY for your secret key.
 
 ```js
 REACT_APP_API_KEY = your api key;
@@ -106,5 +106,3 @@ npm install
 ```bash
 npm start
 ```
--- If you are not redirected to your Browser use the link provided in your terminal when the start proccess is done
-and the link is provided in your terminal.
